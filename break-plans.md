@@ -22,9 +22,9 @@ commits → user says "continue" → next part. Claude has **no git access** (no
 | 3 | **LLM provider layer** | Swappable backends (Gemini default, Groq, Claude stub, mock, factory) | `pipeline/llm/base.py`, `gemini.py`, `groq.py`, `claude.py`, `mock.py`, `factory.py` | ✅ Done |
 | 4 | **Classify** | Orchestration: concurrency, caching, JSON validation, retry | `pipeline/classify.py` | ✅ Done |
 | 5 | **Insights + run** | Aggregates/key findings + end-to-end CLI, writes outputs | `pipeline/insights.py`, `pipeline/run.py` | ✅ Done |
-| 6 | **FastAPI** | Read API over outputs (`/mentions`, `/stats`, `/insights`) | `pipeline/api.py` | ⬜ Next |
-| 7 | **Dashboard scaffold** | Next.js + Tailwind + shadcn setup, data sync | `dashboard/` base | ⬜ |
-| 8 | **Overview page** | Donut + driver bars + sub-param + theme chips | `dashboard/app/(overview)/page.tsx` | ⬜ |
+| 6 | **FastAPI** | Read API over outputs (`/mentions`, `/stats`, `/insights`) | `pipeline/api.py` | ✅ Done |
+| 7 | **Dashboard scaffold** | Next.js + Tailwind + shadcn setup, data sync | `dashboard/` base | ✅ Done |
+| 8 | **Overview page** | Donut + driver bars + sub-param + theme chips | `dashboard/app/(overview)/page.tsx` | ⬜ Next |
 | 9 | **Explorer page** | Text search + filters + content cards | `dashboard/app/explorer/page.tsx` | ⬜ |
 | 10 | **Insights page** | Key findings, top pos/neg drivers | `dashboard/app/insights/page.tsx` | ⬜ |
 | 11 | **Docs** | methodology, scalability, README | `docs/methodology.md`, `docs/scalability.md`, `README.md` | ⬜ |

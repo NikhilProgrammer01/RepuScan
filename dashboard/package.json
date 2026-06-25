@@ -1,0 +1,34 @@
+{
+  "name": "repuscan-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RepuScan — reputation intelligence dashboard (Next.js App Router, reads the pipeline's committed JSON snapshot).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.19",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "recharts": "2.15.0",
+    "lucide-react": "0.469.0",
+    "server-only": "0.0.1",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "tailwind-merge": "2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "typescript": "5.7.3",
+    "tailwindcss": "3.4.17",
+    "postcss": "8.5.1",
+    "autoprefixer": "10.4.20",
+    "tailwindcss-animate": "1.0.7"
+  }
+}
