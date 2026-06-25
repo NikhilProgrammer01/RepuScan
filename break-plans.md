@@ -25,8 +25,8 @@ commits → user says "continue" → next part. Claude has **no git access** (no
 | 6 | **FastAPI** | Read API over outputs (`/mentions`, `/stats`, `/insights`) | `pipeline/api.py` | ✅ Done |
 | 7 | **Dashboard scaffold** | Next.js + Tailwind + shadcn setup, data sync | `dashboard/` base | ✅ Done |
 | 8 | **Overview page** | Donut + driver bars + sub-param + theme chips | `dashboard/app/(overview)/page.tsx` | ✅ Done |
-| 9 | **Explorer page** | Text search + filters + content cards | `dashboard/app/explorer/page.tsx` | ⬜ Next |
-| 10 | **Insights page** | Key findings, top pos/neg drivers | `dashboard/app/insights/page.tsx` | ⬜ |
+| 9 | **Explorer page** | Text search + filters + content cards | `dashboard/app/explorer/page.tsx` | ✅ Done |
+| 10 | **Insights page** | Key findings, top pos/neg drivers | `dashboard/app/insights/page.tsx` | ⬜ Next |
 | 11 | **Docs** | methodology, scalability, README | `docs/methodology.md`, `docs/scalability.md`, `README.md` | ⬜ |
 
 ---

@@ -27,3 +27,17 @@ export function formatCompact(n: number | null | undefined): string {
 export function formatPercent(fraction: number): string {
   return `${Math.round(fraction * 100)}%`;
 }
+
+const dateFmt = new Intl.DateTimeFormat("en-IN", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+});
+
+/** Format an ISO date (YYYY-MM-DD) as "17 Jan 2026"; null/invalid → em dash. */
+export function formatDate(iso: string | null | undefined): string {
+  if (!iso) return "—";
+  const parsed = new Date(iso);
+  if (Number.isNaN(parsed.getTime())) return "—";
+  return dateFmt.format(parsed);
+}
