@@ -1,0 +1,394 @@
+{
+  "brand": "ICICI Prudential Mutual Fund",
+  "provider": "mock",
+  "generated_at": "2026-06-25T13:34:11+00:00",
+  "totals": {
+    "total_mentions": 83,
+    "relevant": 62,
+    "irrelevant": 21,
+    "needs_review": 0,
+    "total_reach": 461110949,
+    "reach_known": 43
+  },
+  "sentiment": {
+    "counts": {
+      "positive": 27,
+      "neutral": 32,
+      "negative": 3
+    },
+    "percentages": {
+      "positive": 43.5,
+      "neutral": 51.6,
+      "negative": 4.8
+    },
+    "net": 24
+  },
+  "drivers": [
+    {
+      "name": "Brand Perception",
+      "count": 37,
+      "percentage": 59.7,
+      "sentiment": {
+        "positive": 11,
+        "neutral": 24,
+        "negative": 2
+      }
+    },
+    {
+      "name": "User Experience",
+      "count": 22,
+      "percentage": 35.5,
+      "sentiment": {
+        "positive": 14,
+        "neutral": 7,
+        "negative": 1
+      }
+    },
+    {
+      "name": "Responsible Business Practices",
+      "count": 3,
+      "percentage": 4.8,
+      "sentiment": {
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      }
+    }
+  ],
+  "sub_drivers": [
+    {
+      "driver": "Brand Perception",
+      "name": "Thought Leadership",
+      "count": 26,
+      "percentage": 41.9,
+      "sentiment": {
+        "positive": 5,
+        "neutral": 19,
+        "negative": 2
+      }
+    },
+    {
+      "driver": "Brand Perception",
+      "name": "Product Strategy",
+      "count": 11,
+      "percentage": 17.7,
+      "sentiment": {
+        "positive": 6,
+        "neutral": 5,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "Brand Perception",
+      "name": "Brand Visibility & Marketing",
+      "count": 0,
+      "percentage": 0.0,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "User Experience",
+      "name": "Product & Service Quality",
+      "count": 20,
+      "percentage": 32.3,
+      "sentiment": {
+        "positive": 13,
+        "neutral": 6,
+        "negative": 1
+      }
+    },
+    {
+      "driver": "User Experience",
+      "name": "Customer Support & Complaint Resolution",
+      "count": 1,
+      "percentage": 1.6,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "User Experience",
+      "name": "Digital & Omnichannel Experience",
+      "count": 1,
+      "percentage": 1.6,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "Responsible Business Practices",
+      "name": "Regulatory Compliance & Ethical Governance",
+      "count": 1,
+      "percentage": 1.6,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "Responsible Business Practices",
+      "name": "Social Impact & Community (CSR)",
+      "count": 2,
+      "percentage": 3.2,
+      "sentiment": {
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "LinkedIn",
+      "count": 8
+    },
+    {
+      "name": "Reddit",
+      "count": 8
+    },
+    {
+      "name": "The Economic Times",
+      "count": 7
+    },
+    {
+      "name": "CNBC-TV18",
+      "count": 7
+    },
+    {
+      "name": "Moneycontrol",
+      "count": 5
+    },
+    {
+      "name": "Business Today",
+      "count": 4
+    },
+    {
+      "name": "BW BusinessWorld",
+      "count": 2
+    },
+    {
+      "name": "The Hindu Business Line",
+      "count": 2
+    },
+    {
+      "name": "The Financial Express",
+      "count": 2
+    },
+    {
+      "name": "MSN",
+      "count": 2
+    },
+    {
+      "name": "Obnews",
+      "count": 2
+    },
+    {
+      "name": "Fortune India",
+      "count": 2
+    },
+    {
+      "name": "newspointapp",
+      "count": 2
+    },
+    {
+      "name": "ET Now",
+      "count": 1
+    },
+    {
+      "name": "Dailyhunt",
+      "count": 1
+    },
+    {
+      "name": "Business Standard",
+      "count": 1
+    },
+    {
+      "name": "Goodreturns",
+      "count": 1
+    },
+    {
+      "name": "The Times of India",
+      "count": 1
+    },
+    {
+      "name": "Money9live",
+      "count": 1
+    },
+    {
+      "name": "Angel One",
+      "count": 1
+    },
+    {
+      "name": "Upstox",
+      "count": 1
+    },
+    {
+      "name": "Zee Business",
+      "count": 1
+    }
+  ],
+  "themes": [
+    {
+      "term": "naren",
+      "count": 20
+    },
+    {
+      "term": "cio",
+      "count": 15
+    },
+    {
+      "term": "asset",
+      "count": 12
+    },
+    {
+      "term": "sankaran",
+      "count": 9
+    },
+    {
+      "term": "allocation",
+      "count": 9
+    },
+    {
+      "term": "explains",
+      "count": 9
+    },
+    {
+      "term": "best",
+      "count": 8
+    },
+    {
+      "term": "returns",
+      "count": 8
+    },
+    {
+      "term": "management",
+      "count": 8
+    },
+    {
+      "term": "now",
+      "count": 8
+    },
+    {
+      "term": "you",
+      "count": 8
+    },
+    {
+      "term": "strategy",
+      "count": 8
+    },
+    {
+      "term": "managers",
+      "count": 7
+    },
+    {
+      "term": "nifty",
+      "count": 7
+    },
+    {
+      "term": "ltd",
+      "count": 7
+    },
+    {
+      "term": "capital",
+      "count": 7
+    },
+    {
+      "term": "chintan",
+      "count": 7
+    },
+    {
+      "term": "haria",
+      "count": 7
+    },
+    {
+      "term": "chief",
+      "count": 7
+    },
+    {
+      "term": "officer",
+      "count": 7
+    }
+  ],
+  "top_positive_drivers": [
+    {
+      "driver": "Responsible Business Practices",
+      "name": "Social Impact & Community (CSR)",
+      "count": 2,
+      "net_score": 2,
+      "net_per_mention": 1.0,
+      "sentiment": {
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "User Experience",
+      "name": "Product & Service Quality",
+      "count": 20,
+      "net_score": 12,
+      "net_per_mention": 0.6,
+      "sentiment": {
+        "positive": 13,
+        "neutral": 6,
+        "negative": 1
+      }
+    },
+    {
+      "driver": "Brand Perception",
+      "name": "Product Strategy",
+      "count": 11,
+      "net_score": 6,
+      "net_per_mention": 0.55,
+      "sentiment": {
+        "positive": 6,
+        "neutral": 5,
+        "negative": 0
+      }
+    },
+    {
+      "driver": "Brand Perception",
+      "name": "Thought Leadership",
+      "count": 26,
+      "net_score": 3,
+      "net_per_mention": 0.12,
+      "sentiment": {
+        "positive": 5,
+        "neutral": 19,
+        "negative": 2
+      }
+    }
+  ],
+  "top_negative_drivers": [],
+  "key_findings": [
+    "Overall sentiment is net positive: 43.5% of 62 relevant mentions are positive versus 4.8% negative.",
+    "“Brand Perception” is the most-discussed reputation driver, accounting for 59.7% of coverage.",
+    "The brand's strongest positive theme is “Social Impact & Community (CSR)” (2 of 2 mentions positive).",
+    "Our re-generated sentiment agrees with the provided labels on 58.1% of 62 comparable mentions."
+  ],
+  "sentiment_agreement": {
+    "compared": 62,
+    "agree": 36,
+    "accuracy": 0.581,
+    "by_given_label": {
+      "neutral": {
+        "total": 40,
+        "agree": 23,
+        "accuracy": 0.575
+      },
+      "positive": {
+        "total": 22,
+        "agree": 13,
+        "accuracy": 0.591
+      }
+    }
+  }
+}
