@@ -1,0 +1,9 @@
+# RepuScan pipeline dependencies — intentionally minimal.
+# xlsx parsing uses the Python stdlib (zipfile + xml), so pandas/openpyxl are NOT required.
+
+python-dotenv>=1.0.0     # load .env (LLM keys, brand config)
+requests>=2.31.0         # HTTP calls to the LLM providers (Gemini/Groq/Claude REST APIs)
+
+# --- FastAPI read-API (Part 6); optional for the core pipeline ---
+fastapi>=0.110.0
+uvicorn>=0.29.0

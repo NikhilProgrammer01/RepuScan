@@ -1,0 +1,75 @@
+# =============================================================================
+# RepuScan — .gitignore
+# Python pipeline (pipeline/) + Next.js dashboard (dashboard/)
+# =============================================================================
+
+# --- Secrets / env (NEVER commit real keys) ---------------------------------
+.env
+.env.*
+!.env.example          # keep the committed template
+*.local
+*.pem
+secrets.json
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Pipeline runtime artifacts
+#   .cache/  -> local LLM response cache (regenerated, can be huge)
+#   *.tmp    -> partial writes
+# NOTE: pipeline/outputs/*.{csv,json} are DELIVERABLES — keep them committed.
+pipeline/.cache/
+pipeline/outputs/*.tmp
+
+# --- Node / Next.js ---------------------------------------------------------
+node_modules/
+.pnp
+.pnp.js
+.next/
+out/
+build/
+dist/
+.vercel/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package-manager debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test / coverage output
+coverage/
+.nyc_output/
+
+# --- OS / Editor ------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
