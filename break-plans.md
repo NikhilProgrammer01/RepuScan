@@ -19,8 +19,8 @@ commits → user says "continue" → next part. Claude has **no git access** (no
 | 0 | **Scaffold** | Repo skeleton, gitignore, env template, config | `.gitignore`, `pipeline/requirements.txt`, `pipeline/.env.example`, `pipeline/config.py` | ✅ Done |
 | 1 | **Framework + Load** | Taxonomy/few-shot + xlsx→dicts loader | `pipeline/framework.py`, `pipeline/load.py` | ✅ Done |
 | 2 | **Clean** | Dedup, standardization, mojibake fix, preprocessing + audit report | `pipeline/clean.py` | ✅ Done |
-| 3 | **LLM provider layer** | Swappable backends (Gemini default, Groq, Claude stub, mock, factory) | `pipeline/llm/base.py`, `gemini.py`, `groq.py`, `claude.py`, `mock.py`, `factory.py` | ⬜ Next |
-| 4 | **Classify** | Orchestration: concurrency, caching, JSON validation, retry | `pipeline/classify.py` | ⬜ |
+| 3 | **LLM provider layer** | Swappable backends (Gemini default, Groq, Claude stub, mock, factory) | `pipeline/llm/base.py`, `gemini.py`, `groq.py`, `claude.py`, `mock.py`, `factory.py` | ✅ Done |
+| 4 | **Classify** | Orchestration: concurrency, caching, JSON validation, retry | `pipeline/classify.py` | ⬜ Next |
 | 5 | **Insights + run** | Aggregates/key findings + end-to-end CLI, writes outputs | `pipeline/insights.py`, `pipeline/run.py` | ⬜ |
 | 6 | **FastAPI** | Read API over outputs (`/mentions`, `/stats`, `/insights`) | `pipeline/api.py` | ⬜ |
 | 7 | **Dashboard scaffold** | Next.js + Tailwind + shadcn setup, data sync | `dashboard/` base | ⬜ |
